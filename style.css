@@ -112,6 +112,14 @@ main {
   grid-area: main;
 }
 
+aside {
+  grid-area: aside;
+}
+
+aside {
+  margin: 2rem;
+}
+
 .main-pic {
   background-image: url(tech6.jpeg);
   background-size: cover;
@@ -522,7 +530,7 @@ ul {
 /***/
 
 .my-projects {
-  height: 1100px;
+  height: 1000px;
   margin: 50px auto;
   border-radius: 6px;
   padding: 20px;
@@ -551,6 +559,7 @@ ul {
   line-height: 1.5;
   color: #fff;
   padding: 1rem;
+  margin-bottom: 3rem;
 }
 
 .text-button-flex {
@@ -569,6 +578,7 @@ ul {
   font-weight: 500;
   letter-spacing: 0.2rem;
   padding: 10px 26px;
+  margin-left: 1rem;
   color: #322b1e;
   cursor: pointer;
   border: 2px solid #fff8eca2;
